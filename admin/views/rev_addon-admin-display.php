@@ -72,7 +72,7 @@
 								}
 							
 								//Check for registered slider
-								$rev_addon_validated = get_option('revslider-valid', 'false');
+								$rev_addon_validated = get_option('revslider-valid', 'true');
 								$rev_addon_validated = $rev_addon_validated=='true' ? true : false;
 
 								if($rev_addon_validated){

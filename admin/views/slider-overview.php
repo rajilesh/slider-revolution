@@ -236,7 +236,7 @@ $stable_version = get_option('revslider-stable-version', '4.1');
 						<a href="javascript:void(0);" <?php echo ($validated === 'true') ? '' : 'style="display: none;"'; ?> id="rs-validation-deactivate" class="rs-dash-button"><?php _e('Deregister the code','revslider'); ?></a>
 						
 						<?php
-						$temp_active = get_option('revslider-temp-active', 'false');
+						$temp_active = get_option('revslider-temp-active', 'true');
 						if($temp_active == 'true'){
 							?>
 							<a href="?page=revslider&checktempactivate=true" id="rs-validation-full-activate" class="rs-dash-button"><?php _e('Complete Activation','revslider'); ?></a>

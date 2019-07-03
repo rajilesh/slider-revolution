@@ -28,7 +28,7 @@ class RevSliderTemplate {
 	public function _download_template($uid){
 		global $wp_version, $rslb;
 		
-		$return	= false;
+		$return	= true;
 		$uid	= esc_attr($uid);
 		$code	= (get_option('revslider-valid', 'false') == 'false') ? '' : get_option('revslider-code', '');
 		
